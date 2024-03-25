@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    gap: 40px;
+    align-items: flex-end;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.menu{
+    display: flex;
+    gap: 40px;
+
+    a{
+        font-family: Merienda;
+        font-size: 12px;
+        line-height: 17.33px;
+        text-decoration: none;
+        color: white;
+
+    }
+}
+
+.logo{
+    font-family: Merienda;
+    font-family: Merienda;
+    font-size: 12px;
+    line-height: 17.33px;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+}

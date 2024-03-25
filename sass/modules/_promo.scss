@@ -1,0 +1,344 @@
+.promo{
+    background: url(./img/gal1.png) no-repeat center  / cover;
+    min-height: 640px;
+    padding: 30px 0;
+    text-align: center;
+    color: white;
+
+    h1{
+        font-family: Merienda;
+        font-size: 40px;
+        line-height: 57.76px;
+        margin:  111px 0 20px;
+    }
+
+    h3{
+        font-family: Merienda;
+        font-size: 24px;
+        line-height: 50px;
+        max-width: 530px;
+        margin: 30px auto  18px;
+
+    }
+}
+
+.btn{
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 0 42px;
+    background: none;
+    
+    font-family: Merienda;
+    font-size: 14px;
+    line-height: 20.22px;
+    text-align: left;
+    color: white;
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+
+    transition: 0.5s;
+
+    &:hover{
+        background-color: white;
+        color: black;
+        scale: 1.05;
+    }
+
+    &:active{
+        box-shadow: none;
+        scale: 0.95;
+    }
+}
+
+.promo2{
+    min-height: 520px;
+    text-align: center;
+    padding: 80px 0;
+
+    h2{
+        font-family: Merienda;
+        font-size: 24px;
+        line-height: 34.66px;
+        margin: 80px 0 20px;
+        font-weight: lighter;
+
+    }
+
+    p{
+        margin: 40px 0 100px;
+        font-family: Merienda;
+        font-size: 14px;
+        line-height: 20.22px;
+        text-align: center;
+
+    }
+}
+
+.promo3{
+    background: url(./img/gal2.png) no-repeat center / cover;
+    min-height: 520px;
+    text-align: center;
+    padding: 80px 0;
+
+    h2{
+        font-family: Merienda;
+        font-size: 24px;
+        line-height: 34.66px;
+        margin: 80px 0 40px;
+        font-weight: lighter;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(3,1fr) ;
+        gap: 70px;
+        align-items: center;
+        justify-content: space-between;
+        margin: 40px 0 110px;
+    }
+
+    .elem{
+        height: 240px;
+        width: 220px;
+        background: rgba(255, 255, 255, 0.65);
+        padding: 22px 34px 14px;
+    
+    }
+
+    .elem0{
+        height: 240px;
+        width: 220px;
+        background: rgba(255, 255, 255, 0.65);
+        padding: 50px 34px 14px;
+
+        p{
+            font-family: Merienda;
+            font-size: 12px;
+            line-height: 20.22px;
+            margin-top: 10px;
+            color:  rgba(0, 0, 0, 1);
+        }
+    }
+
+    .elem p{
+        font-family: Merienda;
+        font-size: 12px;
+        line-height: 20.22px;
+        margin-top: 10px;
+        color:  rgba(0, 0, 0, 1);
+    }
+
+    h4{
+        font-family: Merienda;
+        font-size: 14px;
+        line-height: 20.22px;
+        text-align: right;
+
+    }
+
+}
+
+.promo44{
+    .header2{
+        display: flex;
+        gap: 40px;
+        text-align: center;
+        align-items: flex-end;
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 453px 30px;
+    }
+}
+
+.promo5{
+    background: url(./img/home.png) no-repeat center / cover;
+    min-height: 260px;
+    padding: 30px 0;
+    text-align: center;
+
+    h1 {
+        font-family: Merienda;
+        font-size: 40px;
+        line-height: 57.76px;
+        
+        color: white;
+        margin: 60px 0 84px;
+
+    }
+
+    
+}
+
+.promo6{
+    .grid2{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: 70px 300px 60px;
+    }
+
+    h1{
+        font-family: Merienda;
+        font-size: 24px;
+        line-height: 34.66px;
+        margin: 12px auto 20px;
+        max-width: 200px;
+        font-weight: lighter;
+    }
+
+    p{
+        font-family: Merienda;
+        font-size: 14px;
+        line-height: 20.22px;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .rax{
+        display: flex;
+        margin: -30px 580px 60px;
+    }
+
+    .text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 0 ;
+        gap: 6px;
+        a {
+            font-family: Merienda;
+            font-size: 14px;
+            line-height: 20.22px;
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            padding: 0 19px 0;
+        }
+    }
+
+    input {
+        width: 180px;
+        height: 30px;
+        font-family: Merienda;
+        font-size: 12px;
+        line-height: 17.33px;
+        text-align: center;
+        border: 0;
+        border-radius: 3px;
+        box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+        display: flex;
+        margin-right: 60px;
+
+    }
+
+    .btnn {
+        width: 70px;
+        height: 30px;
+        border: 0;
+        border-radius: 3px;
+        font-family: Merienda;
+        font-size: 12px;
+        line-height: 17.33px;
+        text-align: center;
+        background-color: white;
+        box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+
+        &:hover {
+            background-color: black;
+            color: white;
+            transition: 0.6s;
+            scale: 1.05;
+        }
+        &:active {
+            box-shadow: none;
+            scale: 0.95;
+            
+    
+        }
+
+        
+    }
+
+    .grid6{
+        display: grid;
+        grid-template-columns: repeat(3,1fr) ;
+        gap: 70px;
+        align-items: center;
+        justify-content: space-between;
+        margin: 40px 0 110px;
+    }
+
+    .elem{
+        height: 260px;
+        width: 220px;
+        background: white;
+        padding: 22px 34px 14px;
+        box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+        border-radius: 3px;
+    
+    }
+
+    .elem p{
+        font-family: Merienda;
+        font-size: 12px;
+        line-height: 20.22px;
+        margin-top: 10px;
+        color:  rgba(0, 0, 0, 1);
+    }
+
+    .rigght{
+        font-family: Merienda;
+        font-size: 14px;
+        line-height: 20.22px;
+        text-align: right;
+    }
+
+    h3{
+        font-family: Merienda;
+        font-size: 14px;
+        line-height: 20.22px;
+        text-align: right;
+        margin-top: 10px;
+
+    }
+
+}
+
+.promo7{
+    .grid2{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: 70px 300px 60px;
+    }
+
+    h2{
+        font-family: Merienda;
+        font-size: 24px;
+        line-height: 34.66px;
+        margin: 12px 158px 20px;
+        max-width: 200px;
+        font-weight:lighter;
+    }
+
+    p{
+        font-family: Merienda;
+        font-size: 14px;
+        line-height: 20.22px;
+        text-align: left;
+    }
+
+    h1{
+        b{
+            font-size: small;
+        }
+    }
+    .elem2{
+        b{
+            font-size: 21px;
+        }
+    }
+}
+

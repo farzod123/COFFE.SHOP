@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.icon_box{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+
+    &::before,
+    &::after{
+        content: "" ;
+        width: 60px;
+        height: 1px;
+        background-color: white;
+    }
+}
+.icon_box2{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+
+    &::before,
+    &::after{
+        content: "" ;
+        width: 60px;
+        height: 1px;
+        background-color: black;
+    }
+}
+.icon_box3{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 21px;
+
+    &::before,
+    &::after{
+        content: "" ;
+        width: 60px;
+        height: 1px;
+        background-color: black;
+    }
+}
+
+.header2{
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    align-items: flex-end;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 52px 453px 30px;
+}
+
+.menu2{
+    display: flex;
+    gap: 40px;
+
+    a{
+        font-family: Merienda;
+        font-size: 12px;
+        line-height: 17.33px;
+        text-decoration: none;
+        color: rgb(10, 6, 6);
+
+    }
+}
+
+.logo2{
+    font-family: Merienda;
+    font-family: Merienda;
+    font-size: 12px;
+    line-height: 17.33px;
+    text-align: left;
+    color: rgb(8, 5, 5);
+    text-decoration: none;
+}
+
+
+@import "./modules/promo";
+@import "./modules/header";
